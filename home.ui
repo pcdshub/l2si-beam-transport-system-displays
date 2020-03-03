@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1554</width>
-    <height>1075</height>
+    <width>1454</width>
+    <height>969</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -79,23 +79,45 @@
       <number>9</number>
      </property>
      <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <widget class="QGroupBox" name="groupBox_2">
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>10</pointsize>
         </font>
        </property>
        <property name="title">
         <string>Laser</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>6</number>
+        </property>
+        <property name="bottomMargin">
+         <number>6</number>
+        </property>
         <item>
          <layout class="QGridLayout" name="gridLayout">
           <item row="0" column="3">
            <widget class="PyDMLabel" name="PyDMLabel_13">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -110,7 +132,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_9">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -128,7 +150,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_5">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -156,7 +178,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_7">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -174,7 +196,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_11">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -189,7 +211,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_8">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -204,7 +226,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_14">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -222,7 +244,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_12">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -230,6 +252,39 @@
             </property>
             <property name="channel" stdset="0">
              <string>ca://PLC_LAS_BTS_VAC:LASER_MAINTAINER:ROUGHING_PUMP_FAILURE_RBV</string>
+            </property>
+            <property name="displayFormat" stdset="0">
+             <enum>PyDMLabel::String</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="PyDMLabel" name="PyDMLabel_17">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Laser Shutoff Latch:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="PyDMLabel" name="PyDMLabel_18">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="channel" stdset="0">
+             <string>ca://PLC_LAS_BTS_VAC:LASER_MAINTAINER:SHUTOFF_LATCH_RBV</string>
             </property>
             <property name="displayFormat" stdset="0">
              <enum>PyDMLabel::String</enum>
@@ -263,7 +318,7 @@
             </property>
             <property name="font">
              <font>
-              <pointsize>12</pointsize>
+              <pointsize>10</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -307,7 +362,7 @@
             </property>
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -350,20 +405,29 @@
       <widget class="QGroupBox" name="groupBox">
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>10</pointsize>
         </font>
        </property>
        <property name="title">
         <string>Operation</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_5">
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>6</number>
+        </property>
+        <property name="bottomMargin">
+         <number>6</number>
+        </property>
         <item>
          <layout class="QGridLayout" name="gridLayout_2">
           <item row="2" column="0">
            <widget class="PyDMLabel" name="PyDMLabel_3">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -378,7 +442,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_2">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -393,7 +457,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_10">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -424,7 +488,7 @@
            <widget class="PyDMLabel" name="PyDMLabel">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -439,7 +503,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_4">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -457,7 +521,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_6">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -475,7 +539,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_15">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -490,7 +554,7 @@
            <widget class="PyDMLabel" name="PyDMLabel_16">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -525,7 +589,7 @@
            <widget class="PyDMPushButton" name="PyDMPushButton_2">
             <property name="font">
              <font>
-              <pointsize>12</pointsize>
+              <pointsize>10</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -563,7 +627,7 @@
            <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton">
             <property name="font">
              <font>
-              <pointsize>11</pointsize>
+              <pointsize>10</pointsize>
              </font>
             </property>
             <property name="toolTip">
@@ -591,13 +655,22 @@
       <widget class="QGroupBox" name="groupBox_3">
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>10</pointsize>
         </font>
        </property>
        <property name="title">
         <string>PLC Diagnostics</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_6">
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>6</number>
+        </property>
+        <property name="bottomMargin">
+         <number>6</number>
+        </property>
         <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
@@ -615,7 +688,7 @@
          <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_2">
           <property name="font">
            <font>
-            <pointsize>11</pointsize>
+            <pointsize>10</pointsize>
            </font>
           </property>
           <property name="toolTip">
@@ -629,7 +702,27 @@
        </layout>
       </widget>
      </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
     </layout>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -656,8 +749,8 @@
        </property>
        <property name="minimumSize">
         <size>
-         <width>1500</width>
-         <height>850</height>
+         <width>1400</width>
+         <height>750</height>
         </size>
        </property>
        <property name="frameShape">
@@ -669,8 +762,8 @@
        <widget class="PyDMDrawingRectangle" name="SwitchboxRectangle">
         <property name="geometry">
          <rect>
-          <x>400</x>
-          <y>270</y>
+          <x>410</x>
+          <y>180</y>
           <width>671</width>
           <height>141</height>
          </rect>
@@ -707,8 +800,8 @@
        <widget class="QLabel" name="SwitchboxLabel">
         <property name="geometry">
          <rect>
-          <x>400</x>
-          <y>270</y>
+          <x>410</x>
+          <y>180</y>
           <width>671</width>
           <height>141</height>
          </rect>
@@ -736,8 +829,8 @@
        <widget class="PneumaticValve" name="VP_VVC_1">
         <property name="geometry">
          <rect>
-          <x>1260</x>
-          <y>100</y>
+          <x>1270</x>
+          <y>60</y>
           <width>121</width>
           <height>81</height>
          </rect>
@@ -766,8 +859,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine">
         <property name="geometry">
          <rect>
-          <x>1260</x>
-          <y>150</y>
+          <x>1270</x>
+          <y>110</y>
           <width>20</width>
           <height>51</height>
          </rect>
@@ -785,8 +878,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_2">
         <property name="geometry">
          <rect>
-          <x>1070</x>
-          <y>190</y>
+          <x>1080</x>
+          <y>150</y>
           <width>201</width>
           <height>20</height>
          </rect>
@@ -804,8 +897,8 @@
        <widget class="PneumaticValve" name="VP_VVC_2">
         <property name="geometry">
          <rect>
-          <x>1110</x>
-          <y>100</y>
+          <x>1120</x>
+          <y>60</y>
           <width>121</width>
           <height>82</height>
          </rect>
@@ -829,8 +922,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_3">
         <property name="geometry">
          <rect>
-          <x>1210</x>
-          <y>150</y>
+          <x>1220</x>
+          <y>110</y>
           <width>20</width>
           <height>51</height>
          </rect>
@@ -848,8 +941,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_4">
         <property name="geometry">
          <rect>
-          <x>1220</x>
-          <y>100</y>
+          <x>1230</x>
+          <y>60</y>
           <width>51</width>
           <height>20</height>
          </rect>
@@ -867,8 +960,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_5">
         <property name="geometry">
          <rect>
-          <x>1210</x>
-          <y>110</y>
+          <x>1220</x>
+          <y>70</y>
           <width>20</width>
           <height>20</height>
          </rect>
@@ -886,8 +979,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_6">
         <property name="geometry">
          <rect>
-          <x>1260</x>
-          <y>90</y>
+          <x>1270</x>
+          <y>50</y>
           <width>20</width>
           <height>51</height>
          </rect>
@@ -905,10 +998,10 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_7">
         <property name="geometry">
          <rect>
-          <x>1060</x>
-          <y>200</y>
+          <x>1070</x>
+          <y>160</y>
           <width>20</width>
-          <height>71</height>
+          <height>21</height>
          </rect>
         </property>
         <property name="toolTip">
@@ -918,14 +1011,14 @@
          <double>3.000000000000000</double>
         </property>
         <property name="rotation" stdset="0">
-         <double>168.000000000000000</double>
+         <double>136.000000000000000</double>
         </property>
        </widget>
        <widget class="ColdCathodeGauge" name="DP_GCC">
         <property name="geometry">
          <rect>
-          <x>1100</x>
-          <y>460</y>
+          <x>1110</x>
+          <y>370</y>
           <width>131</width>
           <height>99</height>
          </rect>
@@ -949,8 +1042,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_8">
         <property name="geometry">
          <rect>
-          <x>1060</x>
-          <y>410</y>
+          <x>1070</x>
+          <y>320</y>
           <width>20</width>
           <height>191</height>
          </rect>
@@ -968,8 +1061,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_9">
         <property name="geometry">
          <rect>
-          <x>1070</x>
-          <y>500</y>
+          <x>1080</x>
+          <y>410</y>
           <width>31</width>
           <height>16</height>
          </rect>
@@ -987,8 +1080,8 @@
        <widget class="RoughGauge" name="DP_GPI">
         <property name="geometry">
          <rect>
-          <x>1090</x>
-          <y>570</y>
+          <x>1100</x>
+          <y>480</y>
           <width>121</width>
           <height>60</height>
          </rect>
@@ -1009,8 +1102,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_10">
         <property name="geometry">
          <rect>
-          <x>1070</x>
-          <y>590</y>
+          <x>1080</x>
+          <y>500</y>
           <width>41</width>
           <height>20</height>
          </rect>
@@ -1028,8 +1121,8 @@
        <widget class="PneumaticValve" name="BO4_VGC">
         <property name="geometry">
          <rect>
-          <x>600</x>
-          <y>400</y>
+          <x>630</x>
+          <y>310</y>
           <width>131</width>
           <height>82</height>
          </rect>
@@ -1053,8 +1146,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_11">
         <property name="geometry">
          <rect>
-          <x>600</x>
-          <y>410</y>
+          <x>630</x>
+          <y>320</y>
           <width>16</width>
           <height>21</height>
          </rect>
@@ -1072,8 +1165,8 @@
        <widget class="IonPump" name="BO4_PIP">
         <property name="geometry">
          <rect>
-          <x>620</x>
-          <y>500</y>
+          <x>650</x>
+          <y>410</y>
           <width>131</width>
           <height>101</height>
          </rect>
@@ -1094,8 +1187,8 @@
        <widget class="RoughGauge" name="BO4_GPI">
         <property name="geometry">
          <rect>
-          <x>620</x>
-          <y>600</y>
+          <x>650</x>
+          <y>510</y>
           <width>101</width>
           <height>60</height>
          </rect>
@@ -1116,8 +1209,8 @@
        <widget class="ColdCathodeGauge" name="BO4_GCC">
         <property name="geometry">
          <rect>
-          <x>620</x>
-          <y>650</y>
+          <x>650</x>
+          <y>560</y>
           <width>121</width>
           <height>101</height>
          </rect>
@@ -1138,8 +1231,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_12">
         <property name="geometry">
          <rect>
-          <x>600</x>
-          <y>450</y>
+          <x>630</x>
+          <y>360</y>
           <width>20</width>
           <height>311</height>
          </rect>
@@ -1157,8 +1250,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_13">
         <property name="geometry">
          <rect>
-          <x>610</x>
-          <y>540</y>
+          <x>640</x>
+          <y>450</y>
           <width>21</width>
           <height>20</height>
          </rect>
@@ -1176,8 +1269,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_14">
         <property name="geometry">
          <rect>
-          <x>610</x>
-          <y>620</y>
+          <x>640</x>
+          <y>530</y>
           <width>21</width>
           <height>20</height>
          </rect>
@@ -1195,8 +1288,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_15">
         <property name="geometry">
          <rect>
-          <x>610</x>
-          <y>690</y>
+          <x>640</x>
+          <y>600</y>
           <width>31</width>
           <height>20</height>
          </rect>
@@ -1214,8 +1307,8 @@
        <widget class="IonPump" name="PP_PIP">
         <property name="geometry">
          <rect>
-          <x>330</x>
-          <y>400</y>
+          <x>340</x>
+          <y>310</y>
           <width>121</width>
           <height>99</height>
          </rect>
@@ -1236,8 +1329,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_16">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>410</y>
+          <x>460</x>
+          <y>320</y>
           <width>20</width>
           <height>61</height>
          </rect>
@@ -1255,8 +1348,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_17">
         <property name="geometry">
          <rect>
-          <x>440</x>
-          <y>440</y>
+          <x>450</x>
+          <y>350</y>
           <width>21</width>
           <height>20</height>
          </rect>
@@ -1274,8 +1367,8 @@
        <widget class="PneumaticValve" name="PP_VGC">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>440</y>
+          <x>460</x>
+          <y>350</y>
           <width>121</width>
           <height>82</height>
          </rect>
@@ -1299,8 +1392,8 @@
        <widget class="RoughGauge" name="PP_GPI_1">
         <property name="geometry">
          <rect>
-          <x>350</x>
-          <y>500</y>
+          <x>360</x>
+          <y>410</y>
           <width>101</width>
           <height>60</height>
          </rect>
@@ -1321,8 +1414,8 @@
        <widget class="ColdCathodeGauge" name="PP_GCC">
         <property name="geometry">
          <rect>
-          <x>470</x>
-          <y>520</y>
+          <x>480</x>
+          <y>430</y>
           <width>111</width>
           <height>101</height>
          </rect>
@@ -1343,8 +1436,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_18">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>490</y>
+          <x>460</x>
+          <y>400</y>
           <width>20</width>
           <height>131</height>
          </rect>
@@ -1362,8 +1455,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_19">
         <property name="geometry">
          <rect>
-          <x>460</x>
-          <y>560</y>
+          <x>470</x>
+          <y>470</y>
           <width>20</width>
           <height>16</height>
          </rect>
@@ -1381,8 +1474,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_20">
         <property name="geometry">
          <rect>
-          <x>440</x>
-          <y>530</y>
+          <x>450</x>
+          <y>440</y>
           <width>20</width>
           <height>16</height>
          </rect>
@@ -1400,8 +1493,8 @@
        <widget class="TurboPump" name="PP_PTM">
         <property name="geometry">
          <rect>
-          <x>370</x>
-          <y>610</y>
+          <x>380</x>
+          <y>520</y>
           <width>180</width>
           <height>71</height>
          </rect>
@@ -1419,8 +1512,8 @@
        <widget class="PneumaticValve" name="PP_VVC">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>700</y>
+          <x>460</x>
+          <y>610</y>
           <width>131</width>
           <height>81</height>
          </rect>
@@ -1444,8 +1537,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_21">
         <property name="geometry">
          <rect>
-          <x>470</x>
-          <y>620</y>
+          <x>480</x>
+          <y>530</y>
           <width>91</width>
           <height>20</height>
          </rect>
@@ -1463,8 +1556,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_22">
         <property name="geometry">
          <rect>
-          <x>550</x>
-          <y>630</y>
+          <x>560</x>
+          <y>540</y>
           <width>20</width>
           <height>101</height>
          </rect>
@@ -1482,8 +1575,8 @@
        <widget class="PneumaticValve" name="PP_VRC_2">
         <property name="geometry">
          <rect>
-          <x>60</x>
-          <y>530</y>
+          <x>70</x>
+          <y>440</y>
           <width>111</width>
           <height>82</height>
          </rect>
@@ -1507,8 +1600,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_23">
         <property name="geometry">
          <rect>
-          <x>550</x>
-          <y>750</y>
+          <x>560</x>
+          <y>660</y>
           <width>20</width>
           <height>41</height>
          </rect>
@@ -1526,8 +1619,8 @@
        <widget class="QLabel" name="label">
         <property name="geometry">
          <rect>
-          <x>450</x>
-          <y>790</y>
+          <x>460</x>
+          <y>700</y>
           <width>121</width>
           <height>20</height>
          </rect>
@@ -1545,8 +1638,8 @@
        <widget class="QLabel" name="label_2">
         <property name="geometry">
          <rect>
-          <x>1200</x>
-          <y>70</y>
+          <x>1210</x>
+          <y>30</y>
           <width>131</width>
           <height>20</height>
          </rect>
@@ -1564,8 +1657,8 @@
        <widget class="QLabel" name="label_3">
         <property name="geometry">
          <rect>
-          <x>580</x>
-          <y>760</y>
+          <x>610</x>
+          <y>670</y>
           <width>71</width>
           <height>21</height>
          </rect>
@@ -1583,8 +1676,8 @@
        <widget class="PneumaticValve" name="PP_VRC_3">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>530</y>
+          <x>190</x>
+          <y>440</y>
           <width>111</width>
           <height>82</height>
          </rect>
@@ -1608,8 +1701,8 @@
        <widget class="RoughGauge" name="PP_GPI_2">
         <property name="geometry">
          <rect>
-          <x>230</x>
-          <y>660</y>
+          <x>240</x>
+          <y>570</y>
           <width>81</width>
           <height>60</height>
          </rect>
@@ -1630,8 +1723,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_24">
         <property name="geometry">
          <rect>
-          <x>159</x>
-          <y>620</y>
+          <x>169</x>
+          <y>530</y>
           <width>291</width>
           <height>20</height>
          </rect>
@@ -1649,8 +1742,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_25">
         <property name="geometry">
          <rect>
-          <x>260</x>
-          <y>630</y>
+          <x>270</x>
+          <y>540</y>
           <width>20</width>
           <height>41</height>
          </rect>
@@ -1668,8 +1761,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_26">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>580</y>
+          <x>190</x>
+          <y>490</y>
           <width>20</width>
           <height>51</height>
          </rect>
@@ -1687,8 +1780,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_27">
         <property name="geometry">
          <rect>
-          <x>150</x>
-          <y>580</y>
+          <x>160</x>
+          <y>490</y>
           <width>20</width>
           <height>51</height>
          </rect>
@@ -1706,8 +1799,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_28">
         <property name="geometry">
          <rect>
-          <x>160</x>
-          <y>510</y>
+          <x>170</x>
+          <y>420</y>
           <width>81</width>
           <height>20</height>
          </rect>
@@ -1725,8 +1818,8 @@
        <widget class="PneumaticValve" name="PP_VRC_1">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>330</y>
+          <x>190</x>
+          <y>240</y>
           <width>180</width>
           <height>71</height>
          </rect>
@@ -1747,8 +1840,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_29">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>520</y>
+          <x>190</x>
+          <y>430</y>
           <width>20</width>
           <height>41</height>
          </rect>
@@ -1766,8 +1859,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_30">
         <property name="geometry">
          <rect>
-          <x>230</x>
-          <y>390</y>
+          <x>240</x>
+          <y>300</y>
           <width>20</width>
           <height>131</height>
          </rect>
@@ -1785,8 +1878,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_31">
         <property name="geometry">
          <rect>
-          <x>240</x>
-          <y>380</y>
+          <x>250</x>
+          <y>290</y>
           <width>21</width>
           <height>20</height>
          </rect>
@@ -1804,8 +1897,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_32">
         <property name="geometry">
          <rect>
-          <x>150</x>
-          <y>520</y>
+          <x>160</x>
+          <y>430</y>
           <width>20</width>
           <height>41</height>
          </rect>
@@ -1823,8 +1916,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_33">
         <property name="geometry">
          <rect>
-          <x>280</x>
-          <y>380</y>
+          <x>290</x>
+          <y>290</y>
           <width>131</width>
           <height>20</height>
          </rect>
@@ -1842,8 +1935,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_34">
         <property name="geometry">
          <rect>
-          <x>350</x>
-          <y>299</y>
+          <x>360</x>
+          <y>209</y>
           <width>20</width>
           <height>91</height>
          </rect>
@@ -1861,8 +1954,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_35">
         <property name="geometry">
          <rect>
-          <x>360</x>
-          <y>350</y>
+          <x>370</x>
+          <y>260</y>
           <width>41</width>
           <height>20</height>
          </rect>
@@ -1880,8 +1973,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_36">
         <property name="geometry">
          <rect>
-          <x>360</x>
-          <y>320</y>
+          <x>370</x>
+          <y>230</y>
           <width>41</width>
           <height>20</height>
          </rect>
@@ -1899,8 +1992,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_37">
         <property name="geometry">
          <rect>
-          <x>360</x>
-          <y>290</y>
+          <x>370</x>
+          <y>200</y>
           <width>41</width>
           <height>20</height>
          </rect>
@@ -1918,8 +2011,8 @@
        <widget class="PneumaticValve" name="BI1_VGC">
         <property name="geometry">
          <rect>
-          <x>180</x>
-          <y>200</y>
+          <x>190</x>
+          <y>110</y>
           <width>201</width>
           <height>71</height>
          </rect>
@@ -1940,8 +2033,8 @@
        <widget class="IonPump" name="BI1_PIP">
         <property name="geometry">
          <rect>
-          <x>240</x>
-          <y>90</y>
+          <x>250</x>
+          <y>0</y>
           <width>111</width>
           <height>99</height>
          </rect>
@@ -1962,8 +2055,8 @@
        <widget class="RoughGauge" name="BI1_GPI">
         <property name="geometry">
          <rect>
-          <x>159</x>
-          <y>90</y>
+          <x>169</x>
+          <y>0</y>
           <width>81</width>
           <height>60</height>
          </rect>
@@ -1984,8 +2077,8 @@
        <widget class="ColdCathodeGauge" name="BI1_GCC">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>90</y>
+          <x>50</x>
+          <y>0</y>
           <width>121</width>
           <height>99</height>
          </rect>
@@ -2006,8 +2099,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_38">
         <property name="geometry">
          <rect>
-          <x>380</x>
-          <y>260</y>
+          <x>390</x>
+          <y>170</y>
           <width>20</width>
           <height>20</height>
          </rect>
@@ -2025,8 +2118,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_39">
         <property name="geometry">
          <rect>
-          <x>290</x>
-          <y>210</y>
+          <x>300</x>
+          <y>120</y>
           <width>91</width>
           <height>20</height>
          </rect>
@@ -2044,8 +2137,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_40">
         <property name="geometry">
          <rect>
-          <x>370</x>
-          <y>220</y>
+          <x>380</x>
+          <y>130</y>
           <width>20</width>
           <height>51</height>
          </rect>
@@ -2063,8 +2156,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_41">
         <property name="geometry">
          <rect>
-          <x>100</x>
-          <y>210</y>
+          <x>110</x>
+          <y>120</y>
           <width>171</width>
           <height>20</height>
          </rect>
@@ -2082,8 +2175,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_42">
         <property name="geometry">
          <rect>
-          <x>240</x>
-          <y>150</y>
+          <x>250</x>
+          <y>60</y>
           <width>20</width>
           <height>71</height>
          </rect>
@@ -2101,8 +2194,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_44">
         <property name="geometry">
          <rect>
-          <x>190</x>
-          <y>140</y>
+          <x>200</x>
+          <y>50</y>
           <width>20</width>
           <height>81</height>
          </rect>
@@ -2120,8 +2213,8 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_45">
         <property name="geometry">
          <rect>
-          <x>140</x>
-          <y>150</y>
+          <x>150</x>
+          <y>60</y>
           <width>20</width>
           <height>71</height>
          </rect>
@@ -2139,8 +2232,8 @@
        <widget class="QLabel" name="label_4">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>210</y>
+          <x>50</x>
+          <y>120</y>
           <width>61</width>
           <height>21</height>
          </rect>
@@ -2153,6 +2246,63 @@
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="PyDMLabel" name="BI1_LASER_OK">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>150</y>
+          <width>141</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="text">
+         <string>PyDMLabel</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string>ca://PLC_LAS_BTS_VAC:TRANSPORT_TUBE:BI1:LASER_OK_RBV</string>
+        </property>
+        <property name="displayFormat" stdset="0">
+         <enum>PyDMLabel::String</enum>
+        </property>
+       </widget>
+       <widget class="PyDMLabel" name="BI1_LASER_OK_2">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>700</y>
+          <width>141</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>PyDMLabel</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string>ca://PLC_LAS_BTS_VAC:TRANSPORT_TUBE:BO4:LASER_OK_RBV</string>
+        </property>
+        <property name="displayFormat" stdset="0">
+         <enum>PyDMLabel::String</enum>
         </property>
        </widget>
        <zorder>PyDMDrawingLine_45</zorder>
@@ -2227,6 +2377,8 @@
        <zorder>PyDMDrawingLine_41</zorder>
        <zorder>label_4</zorder>
        <zorder>BI1_VGC</zorder>
+       <zorder>BI1_LASER_OK</zorder>
+       <zorder>BI1_LASER_OK_2</zorder>
       </widget>
      </item>
      <item>
