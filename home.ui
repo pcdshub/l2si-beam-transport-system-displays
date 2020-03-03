@@ -336,7 +336,7 @@
              <bool>false</bool>
             </property>
             <property name="rules" stdset="0">
-             <string>[]</string>
+             <string>[{&quot;name&quot;: &quot;Enable if not already latched&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;expression&quot;: &quot;ch[0]==False&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://PLC_LAS_BTS_VAC:LASER_MAINTAINER:SHUTOFF_LATCH_RBV&quot;, &quot;trigger&quot;: true}]}]</string>
             </property>
             <property name="channel" stdset="0">
              <string>ca://PLC_LAS_BTS_VAC:LASER_MAINTAINER:SHUTOFF</string>
