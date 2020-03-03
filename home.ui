@@ -826,36 +826,6 @@
          <set>Qt::AlignCenter</set>
         </property>
        </widget>
-       <widget class="PneumaticValve" name="VP_VVC_1">
-        <property name="geometry">
-         <rect>
-          <x>1270</x>
-          <y>60</y>
-          <width>121</width>
-          <height>81</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="controlsLocation" stdset="0">
-         <enum>PCDSSymbolBase::Right</enum>
-        </property>
-        <property name="channelsPrefix" stdset="0">
-         <string>ca://LXLHN:VP:VVC:1</string>
-        </property>
-        <property name="iconSize" stdset="0">
-         <number>26</number>
-        </property>
-        <property name="rotateIcon" stdset="0">
-         <bool>true</bool>
-        </property>
-       </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine">
         <property name="geometry">
          <rect>
@@ -892,31 +862,6 @@
         </property>
         <property name="rotation" stdset="0">
          <double>4.000000000000000</double>
-        </property>
-       </widget>
-       <widget class="PneumaticValve" name="VP_VVC_2">
-        <property name="geometry">
-         <rect>
-          <x>1120</x>
-          <y>60</y>
-          <width>121</width>
-          <height>82</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="controlsLocation" stdset="0">
-         <enum>PCDSSymbolBase::Left</enum>
-        </property>
-        <property name="channelsPrefix" stdset="0">
-         <string>ca://LXLHN:VP:VVC:2</string>
-        </property>
-        <property name="iconSize" stdset="0">
-         <number>26</number>
-        </property>
-        <property name="rotateIcon" stdset="0">
-         <bool>true</bool>
         </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_3">
@@ -1142,6 +1087,9 @@
         <property name="rotateIcon" stdset="0">
          <bool>true</bool>
         </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
+        </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_11">
         <property name="geometry">
@@ -1182,6 +1130,9 @@
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="RoughGauge" name="BO4_GPI">
@@ -1226,6 +1177,9 @@
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_12">
@@ -1325,6 +1279,9 @@
         <property name="iconSize" stdset="0">
          <number>26</number>
         </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
+        </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_16">
         <property name="geometry">
@@ -1388,6 +1345,9 @@
         <property name="rotateIcon" stdset="0">
          <bool>true</bool>
         </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
+        </property>
        </widget>
        <widget class="RoughGauge" name="PP_GPI_1">
         <property name="geometry">
@@ -1431,6 +1391,9 @@
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_18">
@@ -1533,6 +1496,9 @@
         <property name="rotateIcon" stdset="0">
          <bool>true</bool>
         </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
+        </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_21">
         <property name="geometry">
@@ -1595,6 +1561,9 @@
         </property>
         <property name="rotateIcon" stdset="0">
          <bool>true</bool>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_23">
@@ -1696,6 +1665,9 @@
         </property>
         <property name="rotateIcon" stdset="0">
          <bool>true</bool>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="RoughGauge" name="PP_GPI_2">
@@ -2035,7 +2007,7 @@
          <rect>
           <x>250</x>
           <y>0</y>
-          <width>111</width>
+          <width>121</width>
           <height>99</height>
          </rect>
         </property>
@@ -2050,6 +2022,9 @@
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="RoughGauge" name="BI1_GPI">
@@ -2094,6 +2069,9 @@
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
         </property>
        </widget>
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_38">
@@ -2305,6 +2283,62 @@
          <enum>PyDMLabel::String</enum>
         </property>
        </widget>
+       <widget class="ControlOnlyValveNO" name="ControlOnlyValveNO">
+        <property name="geometry">
+         <rect>
+          <x>1120</x>
+          <y>60</y>
+          <width>121</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="controlsLocation" stdset="0">
+         <enum>PCDSSymbolBase::Left</enum>
+        </property>
+        <property name="channelsPrefix" stdset="0">
+         <string>ca://LXLHN:VP:VVC:2</string>
+        </property>
+        <property name="iconSize" stdset="0">
+         <number>26</number>
+        </property>
+        <property name="rotateIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="ControlOnlyValveNO" name="ControlOnlyValveNO_2">
+        <property name="geometry">
+         <rect>
+          <x>1270</x>
+          <y>60</y>
+          <width>91</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="controlsLocation" stdset="0">
+         <enum>PCDSSymbolBase::Right</enum>
+        </property>
+        <property name="channelsPrefix" stdset="0">
+         <string>ca://LXLHN:VP:VVC:1</string>
+        </property>
+        <property name="iconSize" stdset="0">
+         <number>26</number>
+        </property>
+        <property name="rotateIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="controlButtonHorizontal" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
        <zorder>PyDMDrawingLine_45</zorder>
        <zorder>PyDMDrawingLine_44</zorder>
        <zorder>PyDMDrawingLine_42</zorder>
@@ -2338,8 +2372,6 @@
        <zorder>PyDMDrawingLine_6</zorder>
        <zorder>PyDMDrawingLine_7</zorder>
        <zorder>DP_GCC</zorder>
-       <zorder>VP_VVC_1</zorder>
-       <zorder>VP_VVC_2</zorder>
        <zorder>PyDMDrawingLine_8</zorder>
        <zorder>PyDMDrawingLine_9</zorder>
        <zorder>PyDMDrawingLine_10</zorder>
@@ -2379,6 +2411,8 @@
        <zorder>BI1_VGC</zorder>
        <zorder>BI1_LASER_OK</zorder>
        <zorder>BI1_LASER_OK_2</zorder>
+       <zorder>ControlOnlyValveNO</zorder>
+       <zorder>ControlOnlyValveNO_2</zorder>
       </widget>
      </item>
      <item>
@@ -2406,6 +2440,11 @@
   </customwidget>
   <customwidget>
    <class>PneumaticValve</class>
+   <extends>PCDSSymbolBase</extends>
+   <header>pcdswidgets.vacuum.valves</header>
+  </customwidget>
+  <customwidget>
+   <class>ControlOnlyValveNO</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.valves</header>
   </customwidget>
