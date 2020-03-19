@@ -1079,7 +1079,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT12LHN:BO4:VGC</string>
+         <string>ca://LTLHN:LD2:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -1126,7 +1126,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT12LHN:BO4:PIP</string>
+         <string>ca://LTLHN:LD2:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -1151,7 +1151,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT12LHN:BO4:GPI</string>
+         <string>ca://LTLHN:LD2:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -1173,7 +1173,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT12LHN:BO4:GCC</string>
+         <string>ca://LTLHN:LD2:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -1642,7 +1642,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO4</string>
+         <string>LD2</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -2002,7 +2002,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT1LHN:BI1:VGC</string>
+         <string>ca://LTLHN:LS1:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2024,7 +2024,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT1LHN:BI1:PIP</string>
+         <string>ca://LTLHN:LS1:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2049,7 +2049,7 @@
          <enum>PCDSSymbolBase::Top</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT1LHN:BI1:GPI</string>
+         <string>ca://LTLHN:LS1:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2071,7 +2071,7 @@
          <enum>PCDSSymbolBase::Left</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT1LHN:BI1:GCC</string>
+         <string>ca://LTLHN:LS1:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2226,7 +2226,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BI1</string>
+         <string>LS1</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -2255,7 +2255,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT1LHN:BI1:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LS1:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -2287,7 +2287,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT12LHN:BO4:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD2:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -2394,7 +2394,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT13LHN:BO5:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD4:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -2416,7 +2416,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT13LHN:BO5:GPI</string>
+         <string>ca://LTLHN:LD4:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2438,7 +2438,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT13LHN:BO5:PIP</string>
+         <string>ca://LTLHN:LD4:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2460,7 +2460,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO5</string>
+         <string>LD4</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -2501,7 +2501,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT13LHN:BO5:VGC</string>
+         <string>ca://LTLHN:LD4:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2567,7 +2567,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT13LHN:BO5:GCC</string>
+         <string>ca://LTLHN:LD4:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2640,7 +2640,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT14LHN:BO6:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD6:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -2662,7 +2662,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT14LHN:BO6:GPI</string>
+         <string>ca://LTLHN:LD6:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2684,7 +2684,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT14LHN:BO6:PIP</string>
+         <string>ca://LTLHN:LD6:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2706,7 +2706,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO6</string>
+         <string>LD6</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -2747,7 +2747,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT14LHN:BO6:VGC</string>
+         <string>ca://LTLHN:LD6:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2813,7 +2813,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT14LHN:BO6:GCC</string>
+         <string>ca://LTLHN:LD6:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2857,7 +2857,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT22LHN:BO14:VGC</string>
+         <string>ca://LTLHN:LD8:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2923,7 +2923,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT22LHN:BO14:PIP</string>
+         <string>ca://LTLHN:LD8:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -2967,7 +2967,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT22LHN:BO14:GPI</string>
+         <string>ca://LTLHN:LD8:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3027,7 +3027,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT22LHN:BO14:GCC</string>
+         <string>ca://LTLHN:LD8:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3049,7 +3049,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO14</string>
+         <string>LD8</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -3081,7 +3081,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT22LHN:BO14:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD8:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -3122,7 +3122,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT21LHN:BO13:GPI</string>
+         <string>ca://LTLHN:LD9:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3163,7 +3163,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT21LHN:BO13:GCC</string>
+         <string>ca://LTLHN:LD9:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3188,7 +3188,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT21LHN:BO13:PIP</string>
+         <string>ca://LTLHN:LD9:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3232,7 +3232,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT21LHN:BO13:VGC</string>
+         <string>ca://LTLHN:LD9:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3270,7 +3270,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT21LHN:BO13:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD9:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -3308,7 +3308,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO13</string>
+         <string>LD9</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -3368,7 +3368,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT20LHN:BO12:GPI</string>
+         <string>ca://LTLHN:LD10:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3409,7 +3409,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT20LHN:BO12:GCC</string>
+         <string>ca://LTLHN:LD10:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3434,7 +3434,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT20LHN:BO12:PIP</string>
+         <string>ca://LTLHN:LD10:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3478,7 +3478,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT20LHN:BO12:VGC</string>
+         <string>ca://LTLHN:LD10:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3516,7 +3516,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT20LHN:BO12:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD10:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -3554,7 +3554,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO12</string>
+         <string>LD10</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -3564,252 +3564,6 @@
         <property name="geometry">
          <rect>
           <x>650</x>
-          <y>30</y>
-          <width>20</width>
-          <height>201</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="penWidth" stdset="0">
-         <double>3.000000000000000</double>
-        </property>
-        <property name="rotation" stdset="0">
-         <double>-3.500000000000000</double>
-        </property>
-       </widget>
-       <widget class="PyDMDrawingLine" name="PyDMDrawingLine_70">
-        <property name="geometry">
-         <rect>
-          <x>810</x>
-          <y>190</y>
-          <width>20</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="penWidth" stdset="0">
-         <double>3.000000000000000</double>
-        </property>
-        <property name="rotation" stdset="0">
-         <double>43.500000000000000</double>
-        </property>
-       </widget>
-       <widget class="RoughGauge" name="BO4_GPI_7">
-        <property name="geometry">
-         <rect>
-          <x>820</x>
-          <y>110</y>
-          <width>101</width>
-          <height>60</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="controlsLocation" stdset="0">
-         <enum>PCDSSymbolBase::Right</enum>
-        </property>
-        <property name="channelsPrefix" stdset="0">
-         <string>ca://LT18LHN:BO10:GPI</string>
-        </property>
-        <property name="iconSize" stdset="0">
-         <number>26</number>
-        </property>
-       </widget>
-       <widget class="PyDMDrawingLine" name="PyDMDrawingLine_71">
-        <property name="geometry">
-         <rect>
-          <x>810</x>
-          <y>140</y>
-          <width>21</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="penWidth" stdset="0">
-         <double>3.000000000000000</double>
-        </property>
-        <property name="rotation" stdset="0">
-         <double>41.000000000000000</double>
-        </property>
-       </widget>
-       <widget class="ColdCathodeGauge" name="BO4_GCC_7">
-        <property name="geometry">
-         <rect>
-          <x>820</x>
-          <y>60</y>
-          <width>121</width>
-          <height>61</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="controlsLocation" stdset="0">
-         <enum>PCDSSymbolBase::Right</enum>
-        </property>
-        <property name="channelsPrefix" stdset="0">
-         <string>ca://LT18LHN:BO10:GCC</string>
-        </property>
-        <property name="iconSize" stdset="0">
-         <number>26</number>
-        </property>
-        <property name="controlButtonHorizontal" stdset="0">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="IonPump" name="BO4_PIP_7">
-        <property name="geometry">
-         <rect>
-          <x>820</x>
-          <y>160</y>
-          <width>131</width>
-          <height>71</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="controlsLocation" stdset="0">
-         <enum>PCDSSymbolBase::Right</enum>
-        </property>
-        <property name="channelsPrefix" stdset="0">
-         <string>ca://LT18LHN:BO10:PIP</string>
-        </property>
-        <property name="iconSize" stdset="0">
-         <number>26</number>
-        </property>
-        <property name="controlButtonHorizontal" stdset="0">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="PyDMDrawingLine" name="PyDMDrawingLine_72">
-        <property name="geometry">
-         <rect>
-          <x>810</x>
-          <y>80</y>
-          <width>31</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="penWidth" stdset="0">
-         <double>3.000000000000000</double>
-        </property>
-        <property name="rotation" stdset="0">
-         <double>29.000000000000000</double>
-        </property>
-       </widget>
-       <widget class="PneumaticValve" name="BO4_VGC_7">
-        <property name="geometry">
-         <rect>
-          <x>800</x>
-          <y>220</y>
-          <width>141</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="controlsLocation" stdset="0">
-         <enum>PCDSSymbolBase::Right</enum>
-        </property>
-        <property name="channelsPrefix" stdset="0">
-         <string>ca://LT18LHN:BO10:VGC</string>
-        </property>
-        <property name="iconSize" stdset="0">
-         <number>26</number>
-        </property>
-        <property name="rotateIcon" stdset="0">
-         <bool>true</bool>
-        </property>
-        <property name="controlButtonHorizontal" stdset="0">
-         <bool>true</bool>
-        </property>
-       </widget>
-       <widget class="PyDMLabel" name="BI1_LASER_OK_8">
-        <property name="geometry">
-         <rect>
-          <x>800</x>
-          <y>10</y>
-          <width>141</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="autoFillBackground">
-         <bool>false</bool>
-        </property>
-        <property name="text">
-         <string>PyDMLabel</string>
-        </property>
-        <property name="channel" stdset="0">
-         <string>ca://LT18LHN:BO10:LASER_OK_RBV</string>
-        </property>
-        <property name="displayFormat" stdset="0">
-         <enum>PyDMLabel::String</enum>
-        </property>
-       </widget>
-       <widget class="PyDMDrawingLine" name="PyDMDrawingLine_73">
-        <property name="geometry">
-         <rect>
-          <x>800</x>
-          <y>250</y>
-          <width>20</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="penWidth" stdset="0">
-         <double>3.000000000000000</double>
-        </property>
-        <property name="rotation" stdset="0">
-         <double>-21.500000000000000</double>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_10">
-        <property name="geometry">
-         <rect>
-          <x>810</x>
-          <y>30</y>
-          <width>71</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="frameShape">
-         <enum>QFrame::Box</enum>
-        </property>
-        <property name="text">
-         <string>BO10</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="PyDMDrawingLine" name="PyDMDrawingLine_74">
-        <property name="geometry">
-         <rect>
-          <x>800</x>
           <y>30</y>
           <width>20</width>
           <height>201</height>
@@ -3860,7 +3614,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT17LHN:BO9:GPI</string>
+         <string>ca://LTLHN:LD14:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3901,7 +3655,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT17LHN:BO9:GCC</string>
+         <string>ca://LTLHN:LD14:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3926,7 +3680,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT17LHN:BO9:PIP</string>
+         <string>ca://LTLHN:LD14:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -3970,7 +3724,7 @@
          <enum>PCDSSymbolBase::Right</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT17LHN:BO9:VGC</string>
+         <string>ca://LTLHN:LD14:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4008,7 +3762,7 @@
          <string>PyDMLabel</string>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT17LHN:BO9:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LD14:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -4046,7 +3800,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BO9</string>
+         <string>LD14</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -4093,7 +3847,7 @@
        <widget class="RoughGauge" name="BO4_GPI_9">
         <property name="geometry">
          <rect>
-          <x>1180</x>
+          <x>1190</x>
           <y>310</y>
           <width>71</width>
           <height>60</height>
@@ -4106,7 +3860,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT5LHN:BI5:GPI</string>
+         <string>ca://LTLHN:LS5:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4115,7 +3869,7 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_81">
         <property name="geometry">
          <rect>
-          <x>1270</x>
+          <x>1290</x>
           <y>300</y>
           <width>21</width>
           <height>20</height>
@@ -4134,7 +3888,7 @@
        <widget class="ColdCathodeGauge" name="BO4_GCC_9">
         <property name="geometry">
          <rect>
-          <x>1220</x>
+          <x>1240</x>
           <y>310</y>
           <width>121</width>
           <height>91</height>
@@ -4147,7 +3901,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT5LHN:BI5:GCC</string>
+         <string>ca://LTLHN:LS5:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4172,7 +3926,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT5LHN:BI5:PIP</string>
+         <string>ca://LTLHN:LS5:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4184,7 +3938,7 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_82">
         <property name="geometry">
          <rect>
-          <x>1200</x>
+          <x>1210</x>
           <y>300</y>
           <width>31</width>
           <height>20</height>
@@ -4216,7 +3970,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT5LHN:BI5:VGC</string>
+         <string>ca://LTLHN:LS5:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4257,7 +4011,7 @@
          <bool>true</bool>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT5LHN:BI5:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LS5:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -4285,7 +4039,7 @@
        <widget class="QLabel" name="label_12">
         <property name="geometry">
          <rect>
-          <x>1300</x>
+          <x>1320</x>
           <y>300</y>
           <width>71</width>
           <height>21</height>
@@ -4295,7 +4049,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BI5</string>
+         <string>LS5</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -4306,8 +4060,8 @@
          <rect>
           <x>1080</x>
           <y>290</y>
-          <width>221</width>
-          <height>20</height>
+          <width>241</width>
+          <height>21</height>
          </rect>
         </property>
         <property name="toolTip">
@@ -4361,7 +4115,7 @@
        <widget class="RoughGauge" name="BO4_GPI_10">
         <property name="geometry">
          <rect>
-          <x>1180</x>
+          <x>1190</x>
           <y>440</y>
           <width>71</width>
           <height>60</height>
@@ -4374,7 +4128,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT8LHN:BI8:GPI</string>
+         <string>ca://LTLHN:LS8:GPI:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4383,7 +4137,7 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_87">
         <property name="geometry">
          <rect>
-          <x>1270</x>
+          <x>1290</x>
           <y>430</y>
           <width>21</width>
           <height>20</height>
@@ -4415,7 +4169,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT8LHN:BI8:PIP</string>
+         <string>ca://LTLHN:LS8:PIP:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4453,7 +4207,7 @@
          <bool>true</bool>
         </property>
         <property name="channel" stdset="0">
-         <string>ca://LT8LHN:BI8:LASER_OK_RBV</string>
+         <string>ca://LTLHN:LS8:LASER_OK_RBV</string>
         </property>
         <property name="displayFormat" stdset="0">
          <enum>PyDMLabel::String</enum>
@@ -4462,7 +4216,7 @@
        <widget class="QLabel" name="label_13">
         <property name="geometry">
          <rect>
-          <x>1300</x>
+          <x>1320</x>
           <y>430</y>
           <width>71</width>
           <height>21</height>
@@ -4472,7 +4226,7 @@
          <enum>QFrame::Box</enum>
         </property>
         <property name="text">
-         <string>BI8</string>
+         <string>LS8</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -4481,7 +4235,7 @@
        <widget class="ColdCathodeGauge" name="BO4_GCC_10">
         <property name="geometry">
          <rect>
-          <x>1220</x>
+          <x>1240</x>
           <y>440</y>
           <width>121</width>
           <height>91</height>
@@ -4494,7 +4248,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT8LHN:BI8:GCC</string>
+         <string>ca://LTLHN:LS8:GCC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4506,7 +4260,7 @@
        <widget class="PyDMDrawingLine" name="PyDMDrawingLine_88">
         <property name="geometry">
          <rect>
-          <x>1200</x>
+          <x>1210</x>
           <y>430</y>
           <width>31</width>
           <height>20</height>
@@ -4527,7 +4281,7 @@
          <rect>
           <x>1080</x>
           <y>420</y>
-          <width>221</width>
+          <width>241</width>
           <height>20</height>
          </rect>
         </property>
@@ -4557,7 +4311,7 @@
          <enum>PCDSSymbolBase::Bottom</enum>
         </property>
         <property name="channelsPrefix" stdset="0">
-         <string>ca://LT8LHN:BI8:VGC</string>
+         <string>ca://LTLHN:LS8:VGC:01</string>
         </property>
         <property name="iconSize" stdset="0">
          <number>26</number>
@@ -4691,14 +4445,6 @@
        <zorder>PyDMDrawingLine_68</zorder>
        <zorder>label_9</zorder>
        <zorder>PyDMDrawingLine_69</zorder>
-       <zorder>PyDMDrawingLine_70</zorder>
-       <zorder>PyDMDrawingLine_71</zorder>
-       <zorder>BO4_PIP_7</zorder>
-       <zorder>PyDMDrawingLine_72</zorder>
-       <zorder>BI1_LASER_OK_8</zorder>
-       <zorder>PyDMDrawingLine_73</zorder>
-       <zorder>label_10</zorder>
-       <zorder>PyDMDrawingLine_74</zorder>
        <zorder>PyDMDrawingLine_75</zorder>
        <zorder>PyDMDrawingLine_76</zorder>
        <zorder>BO4_PIP_8</zorder>
@@ -4709,14 +4455,11 @@
        <zorder>PyDMDrawingLine_79</zorder>
        <zorder>BO4_GPI_5</zorder>
        <zorder>BO4_GPI_6</zorder>
-       <zorder>BO4_GPI_7</zorder>
        <zorder>BO4_GPI_8</zorder>
        <zorder>BO4_GCC_8</zorder>
-       <zorder>BO4_GCC_7</zorder>
        <zorder>BO4_GCC_6</zorder>
        <zorder>BO4_GCC_5</zorder>
        <zorder>BO4_VGC_8</zorder>
-       <zorder>BO4_VGC_7</zorder>
        <zorder>BO4_VGC_6</zorder>
        <zorder>BO4_VGC_5</zorder>
        <zorder>PyDMDrawingLine_80</zorder>
